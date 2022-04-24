@@ -8,29 +8,34 @@ package carlosmarcatacuri.README.md
 
 public class DataEngineer {
 
-  private String name;
-  private String surname;
-  private String email;
+  private String name = "Carlos";
+  private String surname = "Marca Tacuri";
+  private String email = "carlos.marcatacuri@gmail.com";
+  private String[] languages = {"Python", "Java", "Scala", "Bash", "SQL"}
   
-  public DataEngineer() throws Exception {
+  public DataEngineer(String name, String surname, String email, String[] languages) throws Exception {
   
-    setName("Carlos")
-    setSurname("Marca")
-    setEmail("carlos.marcatacuri@gmail.com")
+    setName(name);
+    setSurname(surname);
+    setEmail(email);
+    setLanguages(languages);
     
   }
   
   public String getName() { return name; }
+  public void setName(String name) { this.name = name; }
   
   public String getSurname() { return surname; }
+  public void setSurname(String surname) { this.surname = surname; }
   
   public String getEmail() { return email; }
+  public void setEmail(String email) { this.email = email; }
+  
+  public String getLanguages() { return languages; }
+  public void setLanguages(String languages) { this.languages = languages; }
   
 }
 ```
-
-### Languages
-<a href="https://www.python.org" target="_blank"> <img align="left" alt="Python" width="26px" src="https://github.com/carlosmarcatacuri/carlosmarcatacuri/icons/python.svg?raw=true"/> </a>
 
 <!---
 - 👋 Hi, I’m @carlosmarcatacuri
