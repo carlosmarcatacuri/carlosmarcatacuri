@@ -11,7 +11,7 @@ public class DataEngineer {
   private String name = "Carlos";
   private String surname = "Marca Tacuri";
   private String email = "carlos.marcatacuri@gmail.com";
-  private String[] languages = {"Python", "Java", "Scala", "Bash", "SQL"}
+  private String[] languages = {"Python", "Java", "Scala", "Bash", "SQL"};
   
   public DataEngineer(String name, String surname, String email, String[] languages) throws Exception {
   
